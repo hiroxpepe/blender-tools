@@ -1,0 +1,13 @@
+{
+    "chara": [
+        {
+            "object_name": "Emily",
+            "prefix": "emly"
+        },
+        {
+            "object_name": "Orange",
+            "prefix": "orng"
+        },
+        {}
+    ]
+}
