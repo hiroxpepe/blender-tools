@@ -1,6 +1,6 @@
 ## Blender Python Script utility functions
 ###### created: 2022-05-10
-###### updated: 2022-06-25
+###### updated: 2022-11-01
 
 from typing import List
 from typing import Dict
@@ -114,19 +114,32 @@ def get_armatures() -> List[Armature]:
 def get_actions() -> BlendDataActions:
     return bpy.data.actions
 
-#######################################################################################################
-## OBJECT に設定する関数
+# /////////////////////////////////////////////////////////////////////////////////////////////////////
 def set_object_mode() -> None:
+    """sets the mode to OBJECT.
+
+    Parameters
+    ----------
+        None
+
+    Returns
+    -------
+        None
+    """
+    # set OBJECT mode
     bpy.ops.object.mode_set(mode="OBJECT", toggle=False)
 
-#######################################################################################################
-## 状況を初期化する関数
+# /////////////////////////////////////////////////////////////////////////////////////////////////////
 def init(object_name: str) -> None:
-    """Function to initialize the state.
+    """initializes the state.
 
-    Args:
-        object (string): the name of the object to edit.
-    Returns:
+    Parameters
+    ----------
+    object_name: string
+        the name of the object to edit.
+    
+    Returns
+    -------
         None
     """
     # select the object
