@@ -1,0 +1,23 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\hiroxpepe\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    // for Code Spell Checker
+    "cSpell.words": [
+        "bmesh",
+        "bmvert",
+        "BSDF",
+        "chara",
+        "clazz",
+        "emly",
+        "fcurve",
+        "fcurves",
+        "idname",
+        "lipsync",
+        "mathutils",
+        "orng",
+        "ptvsd",
+        "Sketchfab",
+        "subsurf",
+        "unflat",
+        "verts"
+    ]
+}
